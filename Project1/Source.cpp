@@ -113,7 +113,7 @@ int CALLBACK DlgProc(HWND hWnd, UINT mes, WPARAM wp, LPARAM lp)
 		{
 		case ID_NewGame:
 			MessageBox(0, L"New Game", L"Новая игра", MB_OK);
-			break;
+			break; 
 		case ID_Exit:
 			MessageBox(0, L"Exit Game", L"Exit Game", MB_OK);
 			break;	
